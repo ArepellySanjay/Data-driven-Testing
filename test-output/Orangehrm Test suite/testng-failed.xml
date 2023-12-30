@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Orangehrm Test suite]">
+  <test thread-count="5" name="Admin Login with invalid Data(failed)">
+    <classes>
+      <class name="OrangeHRM_TestCase.AdminLoginTest_WithInvalidData">
+        <methods>
+          <include name="CloseApp"/>
+          <include name="CheckadminLogin"/>
+          <include name="LanchApp"/>
+        </methods>
+      </class> <!-- OrangeHRM_TestCase.AdminLoginTest_WithInvalidData -->
+    </classes>
+  </test> <!-- Admin Login with invalid Data(failed) -->
+</suite> <!-- Failed suite [Orangehrm Test suite] -->
